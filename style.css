@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: darkcyan;
+    margin: 5px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    margin-left: 33%;
+    font-size: 3.25rem;
+    opacity: 0.8;
+}
+
+.java{
+    background-color: darkseagreen;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: darkgreen 10px 14px 2px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: darkcyan;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.fa-hand-paper-o{
+    margin: 10px 35px;
+}
+
+.fa-hand-rock-o{
+    margin: 10px 35px;
+}
+
+.fa-hand-scissors-o{
+    margin: 10px 35px;
+}
+
+.fa-hand-paper-o:hover{
+    color: darkgreen;
+    text-shadow: darkseagreen 1px 2px;
+}
+
+.fa-hand-rock-o:hover{
+    color: darkgreen;
+    text-shadow: darkseagreen 1px 2px;
+}
+.fa-hand-scissors-o:hover{
+    color: darkgreen;
+    text-shadow: darkseagreen 1px 2px;
+}
